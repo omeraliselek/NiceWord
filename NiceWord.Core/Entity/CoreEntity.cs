@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NiceWord.Core.Entity
 {
-    public class CoreEntity
+    public class CoreEntity:IEntity
     {
         public CoreEntity()
         {

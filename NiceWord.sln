@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NiceWord.UI", "NiceWord.UI\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NiceWord.Core", "NiceWord.Core\NiceWord.Core.csproj", "{DA3D6D56-2168-4D5A-BE57-A2CB7EBA04DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NiceWord.Model", "NiceWord.Model\NiceWord.Model.csproj", "{C3FA3C33-B109-4B99-AEED-D34C8FE800E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DA3D6D56-2168-4D5A-BE57-A2CB7EBA04DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA3D6D56-2168-4D5A-BE57-A2CB7EBA04DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA3D6D56-2168-4D5A-BE57-A2CB7EBA04DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3FA3C33-B109-4B99-AEED-D34C8FE800E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3FA3C33-B109-4B99-AEED-D34C8FE800E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3FA3C33-B109-4B99-AEED-D34C8FE800E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3FA3C33-B109-4B99-AEED-D34C8FE800E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
