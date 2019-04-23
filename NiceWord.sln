@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NiceWord.UI", "NiceWord.UI\NiceWord.UI.csproj", "{4296A0EB-DA6E-4FEE-8967-434547B5E635}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NiceWord.Core", "NiceWord.Core\NiceWord.Core.csproj", "{DA3D6D56-2168-4D5A-BE57-A2CB7EBA04DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4296A0EB-DA6E-4FEE-8967-434547B5E635}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4296A0EB-DA6E-4FEE-8967-434547B5E635}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4296A0EB-DA6E-4FEE-8967-434547B5E635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA3D6D56-2168-4D5A-BE57-A2CB7EBA04DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3D6D56-2168-4D5A-BE57-A2CB7EBA04DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3D6D56-2168-4D5A-BE57-A2CB7EBA04DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3D6D56-2168-4D5A-BE57-A2CB7EBA04DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
