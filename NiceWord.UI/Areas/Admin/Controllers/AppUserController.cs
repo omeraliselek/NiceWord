@@ -74,6 +74,7 @@ namespace NiceWord.UI.Areas.Admin.Controllers
             _appUserService.Remove(id);
             TempData["Successful"] = "Transaction is successful.";
             return Redirect("/Admin/AppUser/List");
+            
         }
 
 

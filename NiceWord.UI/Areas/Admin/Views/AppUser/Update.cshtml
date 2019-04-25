@@ -20,27 +20,27 @@
                 <div class="box-header with-border">
                     <h3 class="box-title">Update User</h3>
                 </div>
-                <form action="/Admin/AppUser/Add" method="post" role="form" enctype="multipart/form-data">
+                <form action="/Admin/AppUser/Update" method="post" role="form" enctype="multipart/form-data">
                     <div class="box-body">
                         <div class="form-group">
                             <label for="FirstName">First Name</label>
-                            <input type="text" name="FirstName" class="form-control" placeholder="@Model.FirstName">
+                            <input type="text" name="FirstName" class="form-control" value="@Model.FirstName">
                         </div>
                         <div class="form-group">
                             <label for="LastName">Last Name</label>
-                            <input type="text" name="LastName" class="form-control" placeholder="@Model.LastName">
+                            <input type="text" name="LastName" class="form-control" value="@Model.LastName">
                         </div>
                         <div class="form-group">
                             <label for="UserName">User Name</label>
-                            <input type="text" name="UserName" class="form-control" placeholder="@Model.UserName">
+                            <input type="text" name="UserName" class="form-control" value="@Model.UserName">
                         </div>
                         <div class="form-group">
                             <label for="Email">Email</label>
-                            <input type="email" name="Email" id="exampleInputEmail1" class="form-control" placeholder="@Model.Email">
+                            <input type="email" name="Email" id="exampleInputEmail1" class="form-control" value="@Model.Email">
                         </div>
                         <div class="form-group">
                             <label for="Password">Password</label>
-                            <input type="password" name="Password" id="exampleInputPassword1" class="form-control" placeholder="@Model.Password">
+                            <input type="password" name="Password" id="exampleInputPassword1" class="form-control" value="@Model.Password">
                         </div>
                         <div class="form-group">
                             <label for="Role">Role</label>
@@ -52,10 +52,11 @@
                             </select>
                         </div>
                     </div>
-                    <div class="box-footer">
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </div>
-                </form>
+                   <input type="text" style="visibility:hidden" name="ID" value="@Model.ID" />
+                        <div class="box-footer">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+</form>
             </div>
         </div>
     </div>
